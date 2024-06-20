@@ -11,7 +11,11 @@ let Object = {
     lastLogginDays : ["Monday" , "Tuesday"]
 };
 
-console.log(Object.email);
-console.log(Object["full name"]);
-console.log(Object[mySym]); // for symbole dataType
-console.log(Object.lastLogginDays);
+// console.log(Object.email);
+// console.log(Object["full name"]);
+// console.log(Object[mySym]); // for symbole dataType
+// console.log(Object.lastLogginDays);
+
+
+const {name:n,age:a,location:l} = Object;
+console.log(n,a,l);
