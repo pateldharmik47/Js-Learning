@@ -38,3 +38,11 @@ console.log("addTwo function = ",addTwo(5));
 const Two = function addTwo(num2){
     return num2 + 1;
 }
+
+
+// Falsy values : 
+/* false , 0 , -0 , BrigInt 0n , " ,null , undefine,NaN */
+
+
+// Truethy values : 
+/* "0","false","",[],{},function(){}  */
